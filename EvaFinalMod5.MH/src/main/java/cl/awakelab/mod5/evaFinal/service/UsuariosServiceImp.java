@@ -9,7 +9,7 @@ import cl.awakelab.mod5.evaFinal.entities.UsuariosEntity;
 import cl.awakelab.mod5.evaFinal.repository.UsuariosRepository;
 
 @Service
-public class UsuariosServiceImp implements CrudService<UsuariosEntity>{
+public class UsuariosServiceImp implements CrudService<UsuariosEntity>, IUsuarioService{
 
 	
 	@Autowired
@@ -29,10 +29,15 @@ public class UsuariosServiceImp implements CrudService<UsuariosEntity>{
 
 	@Override
 	public UsuariosEntity editar(UsuariosEntity dato) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return usuarioRepository.save(dato);
 	}
-	
-	
 
+	@Override
+	public UsuariosEntity buscarPorid(Integer idUsuario) {
+		
+		return usuarioRepository.findById(idUsuario).get();
+	}
+
+	
 }

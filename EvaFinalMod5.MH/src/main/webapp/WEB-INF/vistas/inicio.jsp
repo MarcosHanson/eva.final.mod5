@@ -23,13 +23,13 @@
 	<div>
 		
         <img src="https://evaluaciones.alineosoft.com/gentelella-master/production/images/logo-humanidea.png">
-        <jsp:include page="menu.jsp"></jsp:include>
+        <jsp:include page="menu/menu.jsp"></jsp:include>
     </div>
 		
 		<h1 class="centrar">INICIO</h1>
 		<div class="contenido">
 
-			<h2>Cuál es el objetivo del sistema de información?</h2>
+			<h2>¿Cuál es el objetivo del sistema de información?</h2>
 			<p>Permite administrar los principales procesos que se llevan a
 				cabo en ella día a día. Recientemente, un grupo de profesionales
 				fundó una compañía de asesorías laborales, detectando inmediatamente
@@ -37,11 +37,11 @@
 				administrar toda la información que se desprende de sus procesos,
 				tener un control del recurso humano.</p>
 
-			<h2>Quienes deberían usarlo?</h2>
+			<h2>¿Quienes deberían usarlo?</h2>
 			<p>La plana administrativa de la empresa y los distintos Perfiles
 				de usuario.</p>
 
-			<h2>Qué procesos considera la plataforma actualmente?</h2>
+			<h2>¿Qué procesos considera la plataforma actualmente?</h2>
 
 			<ol type="1">
 				<li>Registrar los diferentes tipos de chequeos que se pueden

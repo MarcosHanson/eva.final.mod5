@@ -27,7 +27,7 @@ public class CapacitacionControlador {
 	@GetMapping("/listarcapacitacion")
 	public String listaCapacitacion(ModelMap modelcap) {
 		List<CapacitacionEntity> listacap = crudCapacitacion.lista();
-		modelcap.put("clavecaplista", listacap);
+		modelcap.put("listaCapacitacion", listacap);
 		return "listarCapacitacion";	
 	}
 	
@@ -41,7 +41,5 @@ public class CapacitacionControlador {
 		crudCapacitacion.crear(capacitacion);
 		
 		return new RedirectView("listarcapacitacion");
-		
-		
 	}
 }
