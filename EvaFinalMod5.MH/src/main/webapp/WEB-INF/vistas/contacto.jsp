@@ -27,7 +27,7 @@
 	<!--nav -->	
 	<div>
         <img src="https://evaluaciones.alineosoft.com/gentelella-master/production/images/logo-humanidea.png">
-        <jsp:include page="menu.jsp"></jsp:include>
+        <jsp:include page="menu/menu.jsp"></jsp:include>
     	
     </div>
 
@@ -36,26 +36,26 @@
 	<form:form action="/contacto" method="post" modelAttribute="formContacto" class="formulario">
 	
 		<div class="">
-			<input class="campos-form" type="text" id="nomContacto" name="nombre" placeholder="* Nombre">
+			<input class="campos-form" type="text" id="nomContacto" name="nombreContacto" placeholder="* Nombre">
 		</div>
 
 		<div class="">
-			 <input class="campos-form" type="email" id="mailContacto" name="email" placeholder="* email" >
+			 <input class="campos-form" type="email" id="mailContacto" name="emailContacto" placeholder="* email" >
 		</div>
 
 		<div class="">
-			<input class="campos-form" type="tel" id="telContacto" name="telefono" placeholder="* Telefono [+569XXXXXXXX]" required>
+			<input class="campos-form" type="tel" id="telContacto" name="telefonoContacto" placeholder="* Telefono [+569XXXXXXXX]" required>
 		</div>
 
 		<div class="">
-			<input class="campos-form" type="text"id="menContacto" name="mensaje" placeholder="* Mensaje">
+			<input class="campos-form" type="text"id="menContacto" name="mensajeContacto" placeholder="* Mensaje">
 		</div>
 
 		<div class="">
-			<select class="campos-form" id="genContacto" name="genero">
+			<select class="campos-form" id="genContacto" name="generoContacto">
 				<option selected disabled value="">* Genero</option>
-				<option value="1">Hombre</option>
-				<option value="2">Mujer</option>
+				<option value="Hombre">Hombre</option>
+				<option value="Mujer">Mujer</option>
 			</select>
 		</div>
 		<br>
@@ -86,7 +86,7 @@
 	 <script type="text/javascript" src="/js/validaciones.js"></script>
 	
 		 <footer>
-        <h1>© 2021  humanidea  ·  Pivacidad  ·  Terminos  · Mapa del Sitios </h1>
+        <h1>ï¿½ 2021  humanidea  ï¿½  Pivacidad  ï¿½  Terminos  ï¿½ Mapa del Sitios </h1>
         </footer>
 	</body>
 </html>

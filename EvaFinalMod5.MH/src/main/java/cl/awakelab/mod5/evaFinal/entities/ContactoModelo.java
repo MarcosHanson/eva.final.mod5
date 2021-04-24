@@ -13,10 +13,10 @@ import lombok.ToString;
 @ToString
 public class ContactoModelo {
 
-	private String nombre;
-	private String email;
-	private String telefono;
-	private String mensaje;
-	private String genero;
+	private String nombreContacto;
+	private String emailContacto;
+	private String telefonoContacto;
+	private String mensajeContacto;
+	private String generoContacto;
 
 }

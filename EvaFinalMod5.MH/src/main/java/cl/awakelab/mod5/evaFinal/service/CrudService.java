@@ -6,11 +6,12 @@ import cl.awakelab.mod5.evaFinal.entities.CapacitacionEntity;
 
 public interface CrudService <E>{
 	
-	List<E> lista();
+	public List<E> lista();
 	
-	E crear(E dato);
+	public E crear(E dato);
 	
-	E editar(E dato);
+	public E editar(E dato);
+	
 	
 	
 
