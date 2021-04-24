@@ -19,7 +19,7 @@ import lombok.ToString;
 public class AdministrativoEntity {
 
 	@Id
-	@Column(name = "adrut")
+	@Column(name = "adruto")
 	private Integer adRut;
 	@Column(name = "adnombre")
 	private String adNombre;
