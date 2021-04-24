@@ -26,7 +26,7 @@ public class ProfesionalEntity {
 	@Column(name = "proapellido")
 	private String proApellido;
 	@Column(name = "protelefono")
-	private String proTeleofno;
+	private String proTelefono;
 	@Column(name = "protitulo")
 	private String proTitulo;
 	@Column(name = "proproyecto")
